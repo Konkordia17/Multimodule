@@ -22,10 +22,6 @@ class TasksFragment : Fragment() {
                 .getTaskComponentDependencies()
         val taskComponent = MyTaskComponent(taskComponentDependencies)
         taskComponent.injectTasksFragment(this)
-//        (context.applicationContext as TasksComponentProvider)
-//            .geTasksComponent()
-//            .injectTasksFragment(this)
-
     }
 
     override fun onCreateView(
